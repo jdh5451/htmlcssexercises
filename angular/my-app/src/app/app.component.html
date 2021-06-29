@@ -1,0 +1,10 @@
+<div>
+  Hello there {{title}}
+
+  <br/>
+  <input type='text' name="name" [value]="name" (input)="changeNameHandler">
+  <button [disabled]="active" (click)="submit()">Submit</button>
+</div>
+
+<app-post>
+</app-post>
